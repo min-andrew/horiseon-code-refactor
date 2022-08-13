@@ -50,6 +50,8 @@ p {
     font-size: 16px;
 }
 
+/* This describes the background image for the class hero.*/
+
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +77,30 @@ p {
     margin-left: 20px;
 }
 
+/* conslidated the content classes to affect the div tag under contents class */
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* conslidated the content classes to affect the img tag under contents class */
+
+.content img {
+    max-height: 200px;
+}
+
+/* conslidated the content classes to affect the h2 tag under contents class */
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,43 +113,25 @@ p {
 }
 
 /* conslidated the benfit classes to affect the div tag under benefits class */
+
 .benefits article {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* conslidated the benfit classes to affect the h3 tag under benefits class */
+
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* conslidated the benfit classes to affect the img tag under benefits class */
+
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* conslidated the content classes to affect the div tag under contents class */
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* conslidated the content classes to affect the img tag under contents class */
-.content img {
-    max-height: 200px;
-}
-
-/* conslidated the content classes to affect the h2 tag under contents class */
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 footer {
@@ -133,6 +141,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
